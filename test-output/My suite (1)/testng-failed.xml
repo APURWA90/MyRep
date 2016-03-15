@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite (1)]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="CheckCategoryCompetition Test">
+    <classes>
+      <class name="com.fastudent.competition.CheckCategoryCompetition"/>
+    </classes>
+  </test> <!-- CheckCategoryCompetition Test -->
+  <test name="CheckSubCategoryCompetition Test">
+    <classes>
+      <class name="com.fastudent.competition.CheckSubCategoryCompetition"/>
+    </classes>
+  </test> <!-- CheckSubCategoryCompetition Test -->
+</suite> <!-- Failed suite [My suite (1)] -->

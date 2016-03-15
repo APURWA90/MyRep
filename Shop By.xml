@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite5">
+
+
+
+<test name="CheckCategoryshopby Test">
+    <classes>
+        <class name="com.fastudent.shopby.CheckCategory" ></class>  
+    </classes>
+</test>
+
+<test name="CheckSubCategoryshopby Test">
+    <classes>
+        <class name="com.fastudent.shopby.CheckSubCategory" ></class>  
+    </classes>
+</test>
+
+<test name="Shopbyclick  Test">
+    <classes>
+        <class name="com.fastudent.shopby.Shopbyclick" ></class>  
+    </classes>
+</test>
+
+
+</suite>

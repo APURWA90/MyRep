@@ -1,0 +1,14 @@
+<suite name="My suite">
+<listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter" />
+</listeners>
+  <suite-files>
+   <suite-file path="./Colloge.xml" />
+   <suite-file path="./Competition.xml" />
+   <suite-file path="./Preschool.xml" />
+   <suite-file path="./School.xml"/>
+   <suite-file path="./Shop By.xml" />
+    <suite-file path="./Vocational.xml" />
+   
+  </suite-files>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15185" started-at="2016-03-14T10:17:00Z" finished-at="2016-03-14T10:17:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15185" started-at="2016-03-14T10:17:00Z" finished-at="2016-03-14T10:17:15Z">
+      <class name="com.fastudent.shopby.Shopbyclick">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.fastudent.shopby.Shopbyclick@4411d970]" name="checkSuiteSkip" is-config="true" duration-ms="719" started-at="2016-03-14T15:46:59Z" finished-at="2016-03-14T15:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.fastudent.shopby.Shopbyclick@4411d970]" name="checkTestSkip" is-config="true" duration-ms="2" started-at="2016-03-14T15:47:00Z" finished-at="2016-03-14T15:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="testcaseA2()[pri:0, instance:com.fastudent.shopby.Shopbyclick@4411d970]" name="testcaseA2" duration-ms="15009" started-at="2016-03-14T15:47:00Z" finished-at="2016-03-14T15:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcaseA2 -->
+        <test-method status="PASS" signature="reportDataSetResult()[pri:0, instance:com.fastudent.shopby.Shopbyclick@4411d970]" name="reportDataSetResult" is-config="true" duration-ms="19" started-at="2016-03-14T15:47:15Z" finished-at="2016-03-14T15:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportDataSetResult -->
+        <test-method status="PASS" signature="reportTestResult()[pri:0, instance:com.fastudent.shopby.Shopbyclick@4411d970]" name="reportTestResult" is-config="true" duration-ms="139" started-at="2016-03-14T15:47:15Z" finished-at="2016-03-14T15:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestResult -->
+      </class> <!-- com.fastudent.shopby.Shopbyclick -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite6">
+
+
+
+<test name="CheckCategoryVocational Test">
+    <classes>
+        <class name="com.fastudent.vocational.CheckCategoryVocational" ></class>  
+    </classes>
+</test>
+
+<test name="CheckSubCategoryVocational Test">
+    <classes>
+        <class name="com.fastudent.vocational.CheckSubCategoryVocational" ></class>  
+    </classes>
+</test>
+
+
+</suite>

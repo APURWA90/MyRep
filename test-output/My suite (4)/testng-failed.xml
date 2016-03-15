@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite (4)]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="CheckCategoryshopby Test">
+    <classes>
+      <class name="com.fastudent.shopby.CheckCategory"/>
+    </classes>
+  </test> <!-- CheckCategoryshopby Test -->
+  <test name="CheckSubCategoryshopby Test">
+    <classes>
+      <class name="com.fastudent.shopby.CheckSubCategory"/>
+    </classes>
+  </test> <!-- CheckSubCategoryshopby Test -->
+  <test name="CheckCategoryshopby Test(failed)">
+    <classes>
+      <class name="com.fastudent.shopby.CheckCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testcaseA2"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.fastudent.shopby.CheckCategory -->
+    </classes>
+  </test> <!-- CheckCategoryshopby Test(failed) -->
+</suite> <!-- Failed suite [My suite (4)] -->

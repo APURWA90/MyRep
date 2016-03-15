@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite4">
+
+
+
+<test name="CheckCategorySchool Test">
+    <classes>
+        <class name="com.fastudent.school.CheckCategorySchool" ></class>  
+    </classes>
+</test>
+
+<test name="CheckSubCategorySchool Test">
+    <classes>
+        <class name="com.fastudent.school.CheckSubCategorySchool" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

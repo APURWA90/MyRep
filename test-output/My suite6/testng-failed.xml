@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite6]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="CheckCategoryVocational Test(failed)">
+    <classes>
+      <class name="com.fastudent.vocational.CheckCategoryVocational">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testcasevocational"/>
+          <include name="checkSuiteSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.fastudent.vocational.CheckCategoryVocational -->
+    </classes>
+  </test> <!-- CheckCategoryVocational Test(failed) -->
+</suite> <!-- Failed suite [My suite6] -->

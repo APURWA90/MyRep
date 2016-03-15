@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite2">
+
+
+
+<test name="CheckCategoryCompetition Test">
+    <classes>
+        <class name="com.fastudent.competition.CheckCategoryCompetition" ></class>  
+    </classes>
+</test>
+
+<test name="CheckSubCategoryCompetition Test">
+    <classes>
+        <class name="com.fastudent.competition.CheckSubCategoryCompetition" ></class>  
+    </classes>
+</test>
+
+
+</suite>
+

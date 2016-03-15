@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite5]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="CheckCategoryshopby Test(failed)">
+    <classes>
+      <class name="com.fastudent.shopby.CheckCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testcaseA2"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.fastudent.shopby.CheckCategory -->
+      <class name="com.fastudent.shopby.CheckSubCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.shopby.CheckSubCategory -->
+    </classes>
+  </test> <!-- CheckCategoryshopby Test(failed) -->
+  <test name="CheckSubCategoryshopby Test(failed)">
+    <classes>
+      <class name="com.fastudent.shopby.CheckCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+        </methods>
+      </class> <!-- com.fastudent.shopby.CheckCategory -->
+      <class name="com.fastudent.shopby.CheckSubCategory">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="testcaseA3"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.shopby.CheckSubCategory -->
+    </classes>
+  </test> <!-- CheckSubCategoryshopby Test(failed) -->
+</suite> <!-- Failed suite [My suite5] -->

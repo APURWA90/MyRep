@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite4]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="CheckSubCategorySchool Test(failed)">
+    <classes>
+      <class name="com.fastudent.school.CheckSubCategorySchool">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testcaseSchool"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.school.CheckSubCategorySchool -->
+      <class name="com.fastudent.school.CheckCategorySchool">
+        <methods>
+          <include name="reportTestResult"/>
+          <include name="reportDataSetResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.school.CheckCategorySchool -->
+    </classes>
+  </test> <!-- CheckSubCategorySchool Test(failed) -->
+</suite> <!-- Failed suite [My suite4] -->

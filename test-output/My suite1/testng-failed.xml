@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My suite1]">
+  <listeners>
+    <listener class-name="com.fastudent.listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="CheckTotal Test(failed)">
+    <classes>
+      <class name="com.fastudent.college.CheckCategoryColloge">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="testcaseColloge"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.college.CheckCategoryColloge -->
+      <class name="com.fastudent.college.CheckSubCategoryColloge">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.college.CheckSubCategoryColloge -->
+    </classes>
+  </test> <!-- CheckTotal Test(failed) -->
+  <test name="Test B2(failed)">
+    <classes>
+      <class name="com.fastudent.college.CheckCategoryColloge">
+        <methods>
+          <include name="reportDataSetResult"/>
+          <include name="reportTestResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.college.CheckCategoryColloge -->
+      <class name="com.fastudent.college.CheckSubCategoryColloge">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="testcaseColloge"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.fastudent.college.CheckSubCategoryColloge -->
+    </classes>
+  </test> <!-- Test B2(failed) -->
+</suite> <!-- Failed suite [My suite1] -->
